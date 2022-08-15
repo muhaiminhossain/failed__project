@@ -1,0 +1,35 @@
+@media (max-width: 480px){
+    .f-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .con h1{
+        font-size: 3em;
+        
+    }
+    button{
+        height: 42px;
+        width: 180px;
+        border-radius: 50px;
+        color: white;
+        background-color: #070707;
+
+    }
+    .i-grid{
+        width: 400px;
+        margin: 40px 0;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 50px;
+    }
+    .i-grid img{
+     width: 40px;
+     height: 40px;
+    }
+    span{
+        color:#828282;
+        ;
+    }
+}
