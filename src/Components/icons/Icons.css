@@ -1,43 +1,48 @@
-@media (max-width: 480px){
-    .grid-i{
-        margin: 60px 0;
+.grid{
+    min-height: 408px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.i-container>p{
+    width: inherit;
+    margin-top: 0.625em;
+    font-weight: 400;
+    line-height: 1.75em;
+    font-size: 0.875em;
+   
+}
+.grid-i{
+    box-sizing: content-box;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    padding: 0 60px;
+    gap: 30px;
+}
+.i-container{
+    text-align: start;
+    width: 370px;
+}
+.i-container>h2{
+    margin-top: 3.375em;
+}
+@media (max-width:425px) and (min-width: 320px) {
+    .grid{    
+        height: auto;
+        margin: 60px auto;
+    }
+    .grid-i{   
         display: grid;
+        grid-template-columns: none;
         grid-template-rows: repeat(3,1fr);
         gap: 60px;
-        /* align-items: center; */
-        justify-content: center;
+        padding: 0 ;
+        margin: 0 auto;
     }
-        .icons{
-            width: 68px;
-            height: 68px;
-        }
-        .grid-i div{
-            width: 315px;
-            text-align: justify;
-        }
-        .grid-i div h2{
-            margin: 30px 0 10px 0;
-        }
-}
-
-@media (max-width: 1920px) {
-    .grid-i{
-        margin: 60px 0;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 60px;
-        /* align-items: center; */
-        justify-content: center;
+    .i-container>h2{
+        margin-top: 30px;
     }
-        .icons{
-            width: 68px;
-            height: 68px;
-        }
-        .grid-i div{
-            width: 315px;
-            text-align: justify;
-        }
-        .grid-i div h2{
-            margin: 30px 0 10px 0;
-        }
+    
 }

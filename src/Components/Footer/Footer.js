@@ -9,13 +9,8 @@ const Footer = () => {
         <div className='f-container'>
             <div className="con">
                 <h1>Contacts</h1>
-                <br />
-                <h2>Want to know more or just chat?
-                    <br />
-                    You are welcome!
-                </h2>
-                <br />
-                <button>Send message</button>
+                <p>Want to know more or just chat? You are welcome!</p>
+                <button className='primary-btn'>Send message</button>
             </div>
 
             <div className="i-grid">
@@ -24,10 +19,7 @@ const Footer = () => {
                 <img src={social3} alt="" />
                 <img src={social4} alt="" />
             </div>
-            <span>Like me on
-                <br />
-                LinkedIn, Instagram, Behance, Dribble
-            </span>
+            <p className='texts'>Like me on LinkedIn, Instagram, Behance, Dribble</p>
         </div>
     );
 };

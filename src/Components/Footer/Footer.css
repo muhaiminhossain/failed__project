@@ -1,35 +1,43 @@
-@media (max-width: 480px){
-    .f-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .con h1{
-        font-size: 3em;
-        
-    }
-    button{
-        height: 42px;
-        width: 180px;
-        border-radius: 50px;
-        color: white;
-        background-color: #070707;
-
-    }
-    .i-grid{
-        width: 400px;
-        margin: 40px 0;
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        gap: 50px;
-    }
-    .i-grid img{
-     width: 40px;
-     height: 40px;
-    }
-    span{
-        color:#828282;
-        ;
-    }
+.f-container{
+    padding: 5.6em 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+.con{
+    
+    font-weight: 600;
+}
+p{  
+    width: 264px;
+    font-size: 1.125em;
+    font-weight: 400;
+    word-break: break-word;
+}
+p.texts{  
+    width: 290px;
+    font-size: 1em;
+    font-weight: 400;
+    word-break: break-word;
+    color: #828282;
+    margin-top: 2.5em;
+}
+.primary-btn{
+    width: 180px;
+    height: 42px;
+    background-color: #070707;
+    color: white;
+    margin-top: 2.5em;
+    border-radius: 45px;
+    font-weight: 400;
+    font-size: 1.125em;
+}
+.i-grid{
+    width: 343px;
+    margin-top: 6.5em;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 61px;
+}
+
+
