@@ -8,7 +8,6 @@ const Header = () => {
         <div className='container'>
             <Mobile/>
             
-            {/* <Navi/> */}
             <Hero/>
         </div>
     );

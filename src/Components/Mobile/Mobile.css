@@ -1,33 +1,43 @@
-
-a {
-  text-decoration: none;
-}
 li {
   list-style-type: none;
 }
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 10vh;
-  background-color: #F1F1F1;
+a{
+  color: black;
+  text-decoration: none;
+}
+span{
+  color: #FDA300;
+
+}
+
+.navbar{
+  max-width: 1170px;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 0 60px;
+    margin-top: 42px;
 }
 .logo {
   font-size: 30px;
 }
 .nav-links {
-  display: flex;
-  justify-content: flex-end;
-  width: 75%;
+  width: fit-content;
+    display: flex;
+    position: relative;
+    box-sizing: content-box;
+    justify-content: space-between;
+    min-width: 430px;
+    margin-top: 60px;
 }
 
 .nav-links li {
-  color: black;
-  font-size: 20px;
-  padding: 10px 20px;
-  margin: 0 10px;
-  cursor: pointer;
-  text-transform: capitalize;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .mobile-menu-icon {
@@ -61,7 +71,7 @@ button {
     display: block;
     list-style: none;
     left: 0;
-    top: 10%;
+    top: 7%;
     transition: all 1.75s ease-in-out;
     width: 100%;
     background-color: white;
@@ -74,12 +84,16 @@ button {
     width: 100%;
     transition: all 0.5s ease-in-out;
     text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 52px;
   }
   .mobile-menu-icon {
     position: absolute;
     display: block;
     right: 32px;
     top: 25px;
+    z-index: 10;
   }
   .hero h1 {
     font-size: 50px;

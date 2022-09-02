@@ -1,3 +1,7 @@
+.img{
+    width: 900px;
+    height: 500px;
+}
 .grid-x{
     height: 100%;
     align-items: center;
@@ -28,6 +32,8 @@
 }
 .port{
     margin-bottom: 60px;
+    width: 900px;
+        height: 500px;
 }
 .Portfolio{
     margin-top: 5.6em;
