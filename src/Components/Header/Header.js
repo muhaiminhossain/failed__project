@@ -1,11 +1,14 @@
 import React from 'react';
 import './Header.css'
-import Navi from './Navigation/Navi';
 import Hero from './Hero/Hero';
+import Mobile from '../Mobile/Mobile';
+
 const Header = () => {
     return (
         <div className='container'>
-            <Navi/>
+            <Mobile/>
+            
+            {/* <Navi/> */}
             <Hero/>
         </div>
     );
